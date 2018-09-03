@@ -1,0 +1,41 @@
+<resources>
+
+    <dimen name="popup_title">25dp</dimen>
+    <dimen name="popup_content">15dp</dimen>
+    <dimen name="popup_content_width">100dp</dimen>
+    <dimen name="popup_button_width">100dp</dimen>
+    <dimen name="popup_button_marginBottom">15dp</dimen>
+    <dimen name="popup_margin">10dp</dimen>
+
+    <dimen name="mealPlan_content">15dp</dimen>
+    <dimen name="mealPlan_date">10dp</dimen>
+    <dimen name="mealPlan_margin">15dp</dimen>
+    <dimen name="mealPlan_text_margin">10dp</dimen>
+    <dimen name="mealPlanDetail_margin">5dp</dimen>
+    <dimen name="mealPlan_date_marginBottom">3dp</dimen>
+
+    <dimen name="bodyComposition_content">15dp</dimen>
+    <dimen name="bodyComposition_date">10dp</dimen>
+    <dimen name="bodyComposition_margin">15dp</dimen>
+    <dimen name="bodyComposition_text_margin">10dp</dimen>
+    <dimen name="bodyComposition_date_marginBottom">3dp</dimen>
+
+    <dimen name="exercise_title">15dp</dimen>
+    <dimen name="exercise_description">10dp</dimen>
+    <dimen name="exercise_margin">15dp</dimen>
+    <dimen name="exercise_text_margin">10dp</dimen>
+
+    <dimen name="exerciseDetail_content">15dp</dimen>
+    <dimen name="exerciseDetail_margin">15dp</dimen>
+    <dimen name="exerciseDetail_text_margin">10dp</dimen>
+    <dimen name="exerciseDetail_image_width">90dp</dimen>
+    <dimen name="exerciseDetail_image_height">45dp</dimen>
+
+    <dimen name="doExercise_content">15dp</dimen>
+    <dimen name="doExercise_margin">15dp</dimen>
+    <dimen name="doExercise_text_margin">10dp</dimen>
+    <dimen name="doExercise_image_width">45dp</dimen>
+    <dimen name="doExercise_image_height">45dp</dimen>
+
+    <dimen name="fab_margin">15dp</dimen>
+</resources>

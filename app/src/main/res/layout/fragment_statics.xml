@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yongs.healthnotes.StaticsFragment">
+
+    <LinearLayout
+        android:id="@+id/statics_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/statics_plan_title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="운동 계획명"
+            android:singleLine="true"
+            android:completionThreshold="0"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/statics_detail_title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="운동 이름"
+            android:singleLine="true"
+            android:completionThreshold="0"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/statics_weight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="중량"
+            android:singleLine="true"
+            android:visibility="gone"
+            android:completionThreshold="0"/>
+
+        <Button
+            android:id="@+id/statics_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="검색"
+            android:background="@color/popup_btn_bg"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chart"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/empty_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="데이터가 없습니다."
+        android:textColor="@color/base_txt"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Material -->
+    <color name="colorPrimary">#F3C645</color>
+    <color name="colorPrimaryDark">#DFCFAB</color>
+    <color name="colorAccent">#534C4B</color>
+    <color name="colorAccentPressed">#3f3a39</color>
+
+
+    <color name="navigation_txt">#ffffff</color>
+    <color name="base_txt">#000000</color>
+
+    <color name="navigation_bg">#F3C645</color>
+    <color name="fragment_container_bg">#ffffff</color>
+    <color name="popup_bg">#ffffff</color>
+    <color name="popup_btn_bg">#ffffff</color>
+</resources>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <CheckBox
+        android:id="@+id/exercisePlanCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/planTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/base_txt"
+        android:textSize="@dimen/exercise_title"/>
+
+    <TextView
+        android:id="@+id/detailDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/exercise_text_margin"
+        android:gravity="right"
+        android:textColor="@color/base_txt"
+        android:textSize="@dimen/exercise_description"/>
+
+</LinearLayout>

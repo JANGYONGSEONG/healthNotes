@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yongs.healthnotes.ExerciseSelectActivity">
+
+    <include android:id="@+id/toolbar" layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_margin"
+        android:layout_marginRight="@dimen/popup_margin"
+        android:layout_marginTop="@dimen/popup_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exercise_image"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/popup_content_width"
+            android:text="운동 부위"
+            android:textSize="@dimen/popup_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/exercise0"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="가슴"
+                    />
+
+                <CheckBox
+                    android:id="@+id/exercise1"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="등"
+                    />
+
+                <CheckBox
+                    android:id="@+id/exercise2"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="어깨"
+                    />
+
+                <CheckBox
+                    android:id="@+id/exercise3"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="승모"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/exercise4"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="엉덩이"/>
+
+                <CheckBox
+                    android:id="@+id/exercise5"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="허벅지"/>
+
+                <CheckBox
+                    android:id="@+id/exercise6"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="종아리"/>
+
+                <CheckBox
+                    android:id="@+id/exercise7"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="허리"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/exercise8"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="전완"/>
+
+                <CheckBox
+                    android:id="@+id/exercise9"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="복근"/>
+
+                <CheckBox
+                    android:id="@+id/exercise10"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="이두"/>
+
+                <CheckBox
+                    android:id="@+id/exercise11"
+                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:layout_height="@dimen/exerciseDetail_image_height"
+                    android:text="삼두"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/popup_margin"
+            android:layout_marginRight="@dimen/popup_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/exercise_title"
+                android:layout_height="wrap_content"
+                android:layout_width="@dimen/popup_content_width"
+                android:text="운동 이름"
+                android:textSize="@dimen/popup_content"/>
+
+            <EditText
+                android:id="@+id/exercise_title_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/popup_margin"
+            android:layout_marginRight="@dimen/popup_margin"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/exercise_set"
+                android:layout_height="wrap_content"
+                android:layout_width="@dimen/popup_content_width"
+                android:text="운동 세트 수"
+                android:textSize="@dimen/popup_content"/>
+
+            <EditText
+                android:id="@+id/exercise_set_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numeric="integer"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/exercise_select_left_button"
+                android:layout_width="@dimen/popup_button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_toLeftOf="@id/exercise_select_right_button"
+                android:background="#00ff0000"
+                android:text="취소" />
+
+
+            <Button
+                android:id="@+id/exercise_select_right_button"
+                android:layout_width="@dimen/popup_button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/popup_button_marginBottom"
+                android:background="#00ff0000"
+                android:text="확인" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

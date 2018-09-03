@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HealthNotes</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer closed</string>
+
+    <string name="nav_item_exercise">운동</string>
+    <string name="nav_item_body">체성분</string>
+    <string name="nav_item_meal">식단</string>
+    <string name="nav_item_statics">그래프</string>
+    <string name="nav_item_settings">settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

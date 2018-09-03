@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_change_meal"
+        app:showAsAction="always"
+        android:title="영양"
+        />
+
+    <item
+        android:id="@+id/action_change_bodycomposition"
+        app:showAsAction="always"
+        android:title="체성분"
+        />
+
+    <item
+        android:id="@+id/action_change_exercise_search_times"
+        app:showAsAction="collapseActionView"
+        android:title="중량별 반복 횟수 비교"
+        />
+
+    <item
+        android:id="@+id/action_change_exercise_search_maximum"
+        app:showAsAction="collapseActionView"
+        android:title="날짜별 최대 중량 비교"
+        />
+
+</menu>

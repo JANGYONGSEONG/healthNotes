@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mealPlanDetail_margin">
+
+        <TextView
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="번째 식사"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mealPlanDetail_margin">
+
+        <TextView
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="칼로리:"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:id="@+id/calorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mealPlan_text_margin"
+            android:text="탄수화물:"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:id="@+id/carbohydrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mealPlan_text_margin"
+            android:text="단백질:"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:id="@+id/protein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mealPlan_text_margin"
+
+            android:text="지방:"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+        <TextView
+            android:id="@+id/fat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/base_txt"
+            android:textSize="@dimen/mealPlan_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

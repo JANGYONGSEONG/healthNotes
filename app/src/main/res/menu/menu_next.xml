@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_before"
+        android:title="이전 운동"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_next"
+        android:title="다음 운동"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_finish"
+        android:title="운동 종료"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_review"
+        android:title="이전 기록 보기"
+        app:showAsAction="collapseActionView"
+        />
+</menu>

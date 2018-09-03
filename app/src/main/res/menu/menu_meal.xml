@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_change_exercise"
+        app:showAsAction="always"
+        android:title="운동"
+        />
+
+    <item
+        android:id="@+id/action_change_bodycomposition"
+        app:showAsAction="always"
+        android:title="체성분"
+        />
+
+    <item
+        android:id="@+id/action_change_calorie"
+        app:showAsAction="collapseActionView"
+        android:title="칼로리"
+        />
+    <item
+        android:id="@+id/action_change_carbohydrate"
+        app:showAsAction="collapseActionView"
+        android:title="탄수화물"
+        />
+    <item
+        android:id="@+id/action_change_protein"
+        app:showAsAction="collapseActionView"
+        android:title="단백질"
+        />
+    <item
+        android:id="@+id/action_change_fat"
+        app:showAsAction="collapseActionView"
+        android:title="지방"
+        />
+
+
+
+</menu>

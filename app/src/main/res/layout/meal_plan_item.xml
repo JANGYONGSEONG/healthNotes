@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+        <CheckBox
+            android:id="@+id/mealPlanCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/mealPlan_date_marginBottom">
+
+                        <TextView
+                            android:id="@+id/date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_date"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="칼로리:"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+                        <TextView
+                            android:id="@+id/totalCalorie"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/mealPlan_text_margin"
+                            android:text="탄수화물:"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+                        <TextView
+                            android:id="@+id/totalCarbohydrate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/mealPlan_text_margin"
+                            android:text="단백질:"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+                        <TextView
+                            android:id="@+id/totalProtein"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/mealPlan_text_margin"
+                            android:text="지방:"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+                        <TextView
+                            android:id="@+id/totalFat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/base_txt"
+                            android:textSize="@dimen/mealPlan_content"/>
+
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

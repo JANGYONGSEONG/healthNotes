@@ -1,0 +1,193 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/popup_bg">
+    
+    <TextView
+        android:id="@+id/meal_plan_popup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/popup_margin"
+        android:layout_marginTop="@dimen/popup_margin"
+        android:text="번째 식사"
+        android:textSize="@dimen/popup_title"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_margin"
+        android:layout_marginRight="@dimen/popup_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/meal_plan_popup_food"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/popup_content_width"
+            android:text="음식"
+            android:textSize="@dimen/popup_content"
+            android:maxHeight="45dp"
+            android:scrollbars="vertical"/>
+
+        <EditText
+            android:id="@+id/meal_plan_popup_food_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:maxHeight="84dp"
+            android:textSize="17.6sp"
+            android:inputType="textMultiLine"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_margin"
+        android:layout_marginRight="@dimen/popup_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/meal_plan_popup_totalCalorie"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/popup_content_width"
+            android:text="칼로리"
+            android:textSize="@dimen/popup_content"/>
+
+        <EditText
+            android:id="@+id/meal_plan_popup_totalCalorie_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_margin"
+        android:layout_marginRight="@dimen/popup_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/meal_plan_popup_carbohydrate"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/popup_content_width"
+            android:text="탄수화물"
+            android:textSize="@dimen/popup_content"/>
+
+        <EditText
+            android:id="@+id/meal_plan_popup_carbohydrate_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_margin"
+        android:layout_marginRight="@dimen/popup_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/meal_plan_popup_protein"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/popup_content_width"
+            android:text="단백질"
+            android:textSize="@dimen/popup_content"/>
+
+        <EditText
+            android:id="@+id/meal_plan_popup_protein_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_margin"
+        android:layout_marginRight="@dimen/popup_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/meal_plan_popup_fat"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/popup_content_width"
+            android:text="지방"
+            android:textSize="@dimen/popup_content"/>
+
+        <EditText
+            android:id="@+id/meal_plan_popup_fat_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/meal_plan_popup_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_margin"
+        android:layout_marginRight="@dimen/popup_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/meal_plan_popup_date"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/popup_content_width"
+            android:layout_gravity="center"
+            android:text="날짜"
+            android:textSize="@dimen/popup_content"/>
+
+        <DatePicker
+            android:id="@+id/meal_plan_popup_date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:theme="@android:style/Theme.Holo.Light"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/meal_plan_popup_left_button"
+            android:layout_width="@dimen/popup_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/popup_button_marginBottom"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/meal_plan_popup_right_button"
+            android:background="#00ff0000"
+            android:text="취소"/>
+
+
+        <Button
+            android:id="@+id/meal_plan_popup_right_button"
+            android:layout_width="@dimen/popup_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/popup_button_marginBottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#00ff0000"
+            android:text="확인"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
