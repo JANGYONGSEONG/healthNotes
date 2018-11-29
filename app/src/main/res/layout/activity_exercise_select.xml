@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.yongs.healthnotes.ExerciseSelectActivity">
+    tools:context="com.jang.yongs.healthnotes.ExerciseSelectActivity">
 
     <include android:id="@+id/toolbar" layout="@layout/toolbar" />
 
@@ -28,36 +28,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="30dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="4">
 
                 <CheckBox
-                    android:id="@+id/exercise0"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/chest"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
                     android:text="가슴"
+                    android:layout_weight="1"
                     />
 
                 <CheckBox
-                    android:id="@+id/exercise1"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
                     android:text="등"
+                    android:layout_weight="1"
                     />
 
                 <CheckBox
-                    android:id="@+id/exercise2"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/shoulder"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
                     android:text="어깨"
+                    android:layout_weight="1"
                     />
 
                 <CheckBox
-                    android:id="@+id/exercise3"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/trapezius"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="승모"/>
+                    android:text="승모"
+                    android:layout_weight="1"/>
 
             </LinearLayout>
 
@@ -65,33 +68,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="30dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="4">
 
                 <CheckBox
-                    android:id="@+id/exercise4"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/hip"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="엉덩이"/>
+                    android:text="엉덩이"
+                    android:layout_weight="1"/>
 
                 <CheckBox
-                    android:id="@+id/exercise5"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/thigh"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="허벅지"/>
+                    android:text="허벅지"
+                    android:layout_weight="1"/>
 
                 <CheckBox
-                    android:id="@+id/exercise6"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/calf"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="종아리"/>
+                    android:text="종아리"
+                    android:layout_weight="1"/>
 
                 <CheckBox
-                    android:id="@+id/exercise7"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/waist"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="허리"/>
+                    android:text="허리"
+                    android:layout_weight="1"/>
 
             </LinearLayout>
 
@@ -99,34 +105,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="30dp"
                 android:layout_marginBottom="30dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="4">
 
                 <CheckBox
-                    android:id="@+id/exercise8"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/forearm"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="전완"/>
+                    android:text="전완"
+                    android:layout_weight="1"/>
 
                 <CheckBox
-                    android:id="@+id/exercise9"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/abs"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="복근"/>
+                    android:text="복근"
+                    android:layout_weight="1"/>
 
                 <CheckBox
-                    android:id="@+id/exercise10"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/biceps"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="이두"/>
+                    android:text="이두"
+                    android:layout_weight="1"/>
 
                 <CheckBox
-                    android:id="@+id/exercise11"
-                    android:layout_width="@dimen/exerciseDetail_image_width"
+                    android:id="@+id/triceps"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/exerciseDetail_image_height"
-                    android:text="삼두"/>
+                    android:text="삼두"
+                    android:layout_weight="1"/>
 
             </LinearLayout>
 

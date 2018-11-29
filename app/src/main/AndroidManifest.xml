@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yongs.healthnotes">
+    package="com.jang.yongs.healthnotes">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.jang.yongs.healthnotes.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,17 +17,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MealPlanPopup"
+            android:name="com.jang.yongs.healthnotes.popup.MealPlanPopup"
             android:screenOrientation="portrait"
             android:theme="@style/MyPopupTheme" />
         <activity
-            android:name=".BodyCompositionPopup"
+            android:name="com.jang.yongs.healthnotes.popup.BodyCompositionPopup"
             android:screenOrientation="portrait"
             android:theme="@style/MyPopupTheme" />
-        <activity android:name=".MealPlanActivity" />
-        <activity android:name=".ExerciseSelectActivity" />
-        <activity android:name=".ExerciseDetailActivity" />
-        <activity android:name=".DoExerciseActivity" />
+        <activity android:name="com.jang.yongs.healthnotes.MealPlanActivity" />
+        <activity android:name="com.jang.yongs.healthnotes.ExerciseSelectActivity" />
+        <activity android:name="com.jang.yongs.healthnotes.ExerciseDetailActivity" />
+        <activity android:name="com.jang.yongs.healthnotes.DoExerciseActivity" />
     </application>
 
 </manifest>

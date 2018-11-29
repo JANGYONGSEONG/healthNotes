@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="4"
-    tools:context="com.example.yongs.healthnotes.DoExerciseActivity">
+    tools:context="com.jang.yongs.healthnotes.DoExerciseActivity">
 
     <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
 

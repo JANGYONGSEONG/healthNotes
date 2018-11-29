@@ -21,7 +21,7 @@
         android:textSize="@dimen/exercise_title"/>
 
     <TextView
-        android:id="@+id/detailDescribe"
+        android:id="@+id/exerciseDescribe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/exercise_text_margin"

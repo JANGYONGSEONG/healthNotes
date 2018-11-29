@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.yongs.healthnotes.StaticsFragment">
+    tools:context="com.jang.yongs.healthnotes.fragment.StaticsFragment">
 
     <LinearLayout
         android:id="@+id/statics_exercise"
